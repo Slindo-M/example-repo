@@ -7,7 +7,7 @@ Title: Financial Calculators
 The code allows the user to choose which calculation they want to do between **"investment"** or **"bond"**.
 The code is not **case-sensitive** which recognises any case as valid entries
 The code issues an **appropriate error message** if the user doesn't type in a valid input.
-The code requests mulitple inputs from the user for each of the calculators. If selected, **Investment** asks the user to input the amount of money they are depositing, the interest rate (as a percentage), the number of years they plan on investing, and whether they want to calculate **simple** or **compund** interest. 
+The code requests multiple inputs from the user for each of the calculators. If selected, **Investment** asks the user to input the amount of money they are depositing, the interest rate (as a percentage), the number of years they plan on investing, and whether they want to calculate **simple** or **compound** interest. 
 
 **Interest Formulae** 
 
@@ -22,7 +22,7 @@ If selected, **Bond** asks the user to input the present value of the house, the
 **Bond Repayment Formula:** *repayment* = *i* x *P* / 1 - (1+*i*)^-n
 The Python equivalent: repayment = (1 * P)/(1-(1 + i)^**(-n))
 
-Each option has to print out an answer based on the input receievd and respective formula.
+Each option has to print out an answer based on the input received and respective formula.
 
 ## Code Application
 
